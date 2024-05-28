@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.loginbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-content{
+ border-radius: 5px;
+  height: auto;
+  padding: 40px 20px;
+  min-width: 500px;
+  background-color: #007FFF;
+}
+.heading{
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.email label{
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.email input{
+  border-radius: 5px;
+  height: 40px;
+}
+.password{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.password label{
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+.password input{
+  border-radius: 5px;
+  height: 40px;
+}
+.remember{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+ 
+}
+.remember label{
+  font-size: 18px;
+  margin-right: 5px ;
+}
+.remember input[type="checkbox"] {
+  border-radius: 5px;
+ width: 25px;
+ height: 15px;
+ 
+}
+Button{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.btntxt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background-color: #E0115F;
+}
+.error{
+  height: 10px;
+  color:#FF7F00
+}
+.custom-button :hover{
+  background-color: #E0115F !important;
+}
